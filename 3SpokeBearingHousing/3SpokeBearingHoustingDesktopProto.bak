@@ -1,0 +1,417 @@
+[DeskProto Project]
+Version = 7.1
+Edition = MultiAxis
+WizardType = none
+NumberOfGeometryFiles = 1
+FlipNormals = 0
+SkipBackfaces = 0
+NumberOfVectorFiles = 0
+UseVectorDataZValues = 0
+IsUseVectorDataZValuesSet = 0
+PreserveCurveDirection = 0
+NumberOfBitmapFiles = 0
+CADFileUnit = 0
+NumberOfParts = 1
+ActivePartIndex = 0
+SavedToolpaths = 0
+UseTranslationForOperationSegment = 1
+UseTranslationForPartSegment = 1
+UseTranslationForGeometrySupports = 1
+UseTranslationForCentre = 1
+UseTranslationForAmbient = 1
+UseTranslationForVectorSelection = 1
+UseTranslationForVectorSupports = 1
+UseDimensionScalingForGeometry = 0
+UseDimensionScalingForVector = 0
+UseDimensionScalingForBitmap = 0
+Machine = ISO plain G-codes - mm
+
+[DeskProto Project GeometryFile0]
+FilePath = /home/pnovack/freeCadParts/G23-three-spoke-bearing-housing-4.stl
+ScaleX = 1
+ScaleY = 1
+ScaleZ = 1
+RotationX = 0.000000
+RotationY = 0.000000
+RotationZ = 0.000000
+TranslationX = 0.000000
+TranslationY = 0.000000
+TranslationZ = 0.000000
+MirrorX = 0
+MirrorY = 0
+MirrorZ = 0
+
+[Part0]
+Name = Part
+UseRotationAxis = 0
+UseTiltOption = 0
+ScaleX = 1
+ScaleY = 1
+ScaleZ = 1
+MirrorX = 0
+MirrorY = 0
+MirrorZ = 0
+RotationX = 0.000000
+RotationY = 0.000000
+RotationZ = 0.000000
+InverseMilling = 0
+CenteringGeometry = 0
+SegmentMethod = 1
+SegmentShape = 0
+SegmentMinimumX = -67.750000
+SegmentMinimumY = -80.000000
+SegmentMinimumZ = 0.000000
+SegmentMaximumX = 92.250000
+SegmentMaximumY = 70.000000
+SegmentMaximumZ = 25.000000
+AmbientlevelMethod = 2
+AmbientlevelZ = 0.000000
+TranslationMethodX = 1
+TranslationMethodY = 1
+TranslationMethodZ = 1
+TranslationCustomX = 0.000000
+TranslationCustomY = 0.000000
+TranslationCustomZ = 0.000000
+SimulationResolution = 1000
+CheckSimulationForRemoved = 1
+UseSimulationDefaultToleranceForRemoved = 1
+SimulationToleranceForRemoved = 0.160000
+CheckSimulationForRest = 0
+UseSimulationDefaultToleranceForRest = 1
+SimulationToleranceForRest = 0.160000
+WindowLayout = 0
+NumberOfOperations = 3
+SupportBlockType = 0
+
+[Part0 Operation0]
+Name = Roughing
+Cutter = Ball nose, radius 1/16 = diameter 1/8 inch
+Visible = 0
+OperationType = 1
+Feedrate = 1000.000000
+Spindlespeed = 20000
+UseRoughingLayers = 1
+RoughingLayerMethod = 1
+RoughingLayer = 3.000000
+UseRoughingRamping = 1
+RoughingRampingAngle = 5.000000
+AlwaysStayLow = 0
+ToolpathDistance = 0.762000
+ToolpathStepsize = 0.762000
+ToolpathSubSamplingFactor = 1
+SegmentMethod = 0
+SegmentMinimumX = -67.750000
+SegmentMinimumY = -80.000000
+SegmentMinimumZ = 0.000000
+SegmentMaximumX = 92.250000
+SegmentMaximumY = 70.000000
+SegmentMaximumZ = 25.000000
+BordersizeMethod = 1
+BordersizeStartX = 1.905000
+BordersizeStartY = 1.905000
+BordersizeEndX = 1.905000
+BordersizeEndY = 1.905000
+Strategy = 14
+StrategyParallelAngle = 0.000000
+CrosswiseFirstXthenY = 1
+StrategyCircularSpiral = 0
+StrategyMachineCorners = 0
+StrategyCentreMethod = 1
+StrategyCentreX = 12.250000
+StrategyCentreY = -5.000000
+SmoothToolpathTransitions = 0
+FillGaps = 0
+WaterlineDistance = 1.000000
+FillHorizontalWaterlinePlanes = 0
+IgnoreEnclosedContours = 0
+ContourOffset = 0.000000
+RoughingSkin = 0.317500
+RoughingVerticalPlaneCheck = 0
+Direction = 0
+PlungeRate = 100
+StartRate = 50
+Sorting = 1
+FreeMovementHeight = 5.000000
+SkipAmbient = 0
+SkipAmbientIgnoreEnclosed = 1
+ColletDiameter = 0
+CheckForVerticalPlanes = 0
+VerticalPlaneRatio = 20
+TiltAngle = 0.000000
+
+[Part0 Operation1]
+Name = Finishing
+Cutter = Ball nose, radius 1/16 = diameter 1/8 inch
+Visible = 0
+OperationType = 1
+Feedrate = 750.000000
+Spindlespeed = 20000
+UseRoughingLayers = 0
+RoughingLayerMethod = 0
+RoughingLayer = 8.572500
+UseRoughingRamping = 0
+RoughingRampingAngle = 5.000000
+AlwaysStayLow = 0
+ToolpathDistance = 0.186765
+ToolpathStepsize = 0.186765
+ToolpathSubSamplingFactor = 1
+SegmentMethod = 0
+SegmentMinimumX = -67.750000
+SegmentMinimumY = -80.000000
+SegmentMinimumZ = 0.000000
+SegmentMaximumX = 92.250000
+SegmentMaximumY = 70.000000
+SegmentMaximumZ = 25.000000
+BordersizeMethod = 1
+BordersizeStartX = 1.587500
+BordersizeStartY = 1.587500
+BordersizeEndX = 1.587500
+BordersizeEndY = 1.587500
+Strategy = 14
+StrategyParallelAngle = 0.000000
+CrosswiseFirstXthenY = 1
+StrategyCircularSpiral = 0
+StrategyMachineCorners = 0
+StrategyCentreMethod = 1
+StrategyCentreX = 12.250000
+StrategyCentreY = -5.000000
+SmoothToolpathTransitions = 0
+FillGaps = 0
+WaterlineDistance = 1.000000
+FillHorizontalWaterlinePlanes = 0
+IgnoreEnclosedContours = 0
+ContourOffset = 0.000000
+RoughingSkin = 0.000000
+RoughingVerticalPlaneCheck = 0
+Direction = 0
+PlungeRate = 100
+StartRate = 50
+Sorting = 1
+FreeMovementHeight = 5.000000
+SkipAmbient = 1
+SkipAmbientIgnoreEnclosed = 1
+ColletDiameter = 1
+CheckForVerticalPlanes = 0
+VerticalPlaneRatio = 20
+TiltAngle = 0.000000
+
+[Part0 Operation2]
+Name = Contour-only
+Cutter = Ball nose, radius 1/16 = diameter 1/8 inch
+Visible = 1
+OperationType = 1
+Feedrate = 750.000000
+Spindlespeed = 20000
+UseRoughingLayers = 0
+RoughingLayerMethod = 0
+RoughingLayer = 8.572500
+UseRoughingRamping = 0
+RoughingRampingAngle = 5.000000
+AlwaysStayLow = 0
+ToolpathDistance = 0.352778
+ToolpathStepsize = 0.352778
+ToolpathSubSamplingFactor = 3
+SegmentMethod = 0
+SegmentMinimumX = -67.750000
+SegmentMinimumY = -80.000000
+SegmentMinimumZ = 0.000000
+SegmentMaximumX = 92.250000
+SegmentMaximumY = 70.000000
+SegmentMaximumZ = 25.000000
+BordersizeMethod = 1
+BordersizeStartX = 1.587500
+BordersizeStartY = 1.587500
+BordersizeEndX = 1.587500
+BordersizeEndY = 1.587500
+Strategy = 9
+StrategyParallelAngle = 0.000000
+CrosswiseFirstXthenY = 1
+StrategyCircularSpiral = 0
+StrategyMachineCorners = 0
+StrategyCentreMethod = 1
+StrategyCentreX = 12.250000
+StrategyCentreY = -5.000000
+SmoothToolpathTransitions = 0
+FillGaps = 0
+WaterlineDistance = 1.000000
+FillHorizontalWaterlinePlanes = 0
+IgnoreEnclosedContours = 0
+ContourOffset = 0.000000
+RoughingSkin = 0.000000
+RoughingVerticalPlaneCheck = 0
+Direction = 1
+PlungeRate = 100
+StartRate = 50
+Sorting = 1
+FreeMovementHeight = 5.000000
+SkipAmbient = 0
+SkipAmbientIgnoreEnclosed = 1
+ColletDiameter = 0
+CheckForVerticalPlanes = 0
+VerticalPlaneRatio = 20
+TiltAngle = 0.000000
+
+[Part0 View0]
+Name = 
+ShowName = 0
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = -30.697617
+RotationY = 20.096817
+RotationZ = 7.309482
+PanningX = 395.401214
+PanningY = 260.124116
+Zooming = 68.301346
+
+[Part0 View0 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View0 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View0 Operation2]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View1]
+Name = 
+ShowName = 0
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = -75.000000
+RotationY = 30.000000
+RotationZ = 7.600000
+PanningX = 0.000000
+PanningY = 0.000000
+Zooming = 100.000000
+
+[Part0 View1 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View1 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View1 Operation2]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View2]
+Name = 
+ShowName = 0
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = -75.000000
+RotationY = 30.000000
+RotationZ = 7.600000
+PanningX = 0.000000
+PanningY = 0.000000
+Zooming = 100.000000
+
+[Part0 View2 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View2 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View2 Operation2]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View3]
+Name = 
+ShowName = 0
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = -75.000000
+RotationY = 30.000000
+RotationZ = 7.600000
+PanningX = 0.000000
+PanningY = 0.000000
+Zooming = 100.000000
+
+[Part0 View3 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View3 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View3 Operation2]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[NCFiles]
+NCFileCount = 1
+NCFile0 = /home/pnovack/freeCadParts/Full3DBEaring.iso
+NCFile0Properties = Part0,Operation0,#1,0,1795552715
